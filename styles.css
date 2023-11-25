@@ -304,3 +304,272 @@ nav .nav-social {
   font-family: "Open Sans", sans-serif;
   color: rgb(120, 121, 118);
 }
+
+/* services */
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(251, 251, 251);
+}
+
+/* service first */
+.services .service-first {
+  width: 100%;
+  max-width: 93.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services .text {
+  text-align: center;
+  max-width: 28.125rem;
+  margin-top: 6.25rem;
+  margin-bottom: 2.25rem;
+}
+
+.services .text h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  color: rgb(20, 191, 152);
+  margin-bottom: 1.125rem;
+}
+
+.services .text h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.75rem;
+  line-height: 2.125rem;
+  font-weight: 700;
+  color: rgb(72, 74, 70);
+  margin-bottom: 1.125rem;
+}
+
+.services .cards {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 3.25rem;
+}
+
+.services .cards .card {
+  max-width: 21rem;
+  margin-bottom: 5.625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  position: relative;
+  border-radius: 0.375rem;
+  border: 1px solid #ebe8e8;
+}
+
+.services .cards .card img {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}
+
+.services .cards .card .card-body {
+  padding: 2.25rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services .cards .card h1 {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0.75rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+  color: rgb(72, 74, 70);
+}
+
+.services .cards .card p {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1rem;
+  color: rgb(120, 121, 118);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.565rem;
+}
+
+.services .cards .card ul {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style: none;
+  color: rgb(120, 121, 118);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.565rem;
+  margin-bottom: 1.5rem;
+}
+
+.services .cards .card ul li::before {
+  content: "\25A0";
+  color: rgb(20, 191, 152);
+  margin-right: 5px;
+  font-size: 1rem;
+}
+
+.services .cards .card h3 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0.25rem;
+  color: rgb(72, 74, 70);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.services .cards .card h3 span {
+  color: rgb(20, 191, 152);
+}
+
+.services .service-first a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration: none;
+  width: 6.875rem;
+  height: 3rem;
+  background-color: rgb(20, 191, 152);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(20, 191, 152);
+  border-radius: 0.125rem;
+  margin-top: 2rem;
+  position: absolute;
+  bottom: -5%;
+  left: 35%;
+}
+
+.services .service-first a:hover {
+  color: rgb(20, 191, 152);
+  background-color: #fff;
+}
+
+/* service second */
+.services .service-second {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+.services .service-second .image {
+  width: 50%;
+}
+
+.services .service-second .image img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.services .service-second .details {
+  width: 50%;
+  height: 100%;
+}
+
+.services .service-second .details .container {
+  max-width: 28rem;
+  margin-left: 5rem;
+  margin-right: auto;
+  padding-top: 6.375rem;
+}
+
+.services .service-second .details .container h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  color: rgb(72, 74, 70);
+  margin-bottom: 1.625rem;
+}
+
+.services .service-second .details .container p {
+  font-family: "Open Sans", sans-serif;
+  margin-left: 3.125rem;
+  color: rgb(120, 121, 118);
+  margin-bottom: 2rem;
+  margin-top: -2rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5625rem;
+}
+
+.services .service-second .item {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.services .service-second .item h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: rgb(72, 74, 70);
+}
+
+.services .service-second .item span {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  width: 2.25rem;
+  height: 2.25rem;
+  margin-right: 0.875rem;
+  border: 0.125rem solid rgb(72, 74, 70);
+  color: rgb(72, 74, 70);
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 2.125rem;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 0.2s ease;
+}
+
+.services .service-second .item .item-span {
+  color: #fff;
+  background-color: rgb(20, 191, 152);
+  border-color: rgb(20, 191, 152);
+}
+
+.services .service-second .item .item-h3 {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(20, 191, 152);
+}
+
+.services .service-second .item:hover span {
+  color: rgb(20, 191, 152);
+  background-color: #fff;
+  border-color: rgb(20, 191, 152);
+}
+
+.services .service-second .item .item-span:hover {
+  color: #fff;
+  background-color: rgb(20, 191, 152);
+  border-color: rgb(20, 191, 152);
+}
+
+.services .service-second .item:hover h3 {
+  color: rgb(20, 191, 152);
+}
