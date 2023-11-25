@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 1500px;
+  overflow-x: hidden;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(17, 52, 72);
+  padding: 0 5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+nav .scrolled {
+  background: transparent;
+}
+nav img {
+  width: 7.2rem;
+  height: 2.8rem;
+  margin-top: 5px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+nav ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  gap: 2.25rem;
+  line-height: 0.9rem;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+nav li a:hover {
+  color: rgb(20, 191, 152);
+}
+
+nav li a:active {
+  color: rgb(20, 191, 152);
+}
+
+nav .nav-social {
+  gap: 0.625rem;
+}
+
+.social-i {
+  background-color: rgb(20, 191, 152);
+  color: #fff;
+}
+.nav-social i {
+  font-size: 12px;
+  font-weight: 600;
+  width: 1.75rem;
+  height: 1.5rem;
+  text-align: center;
+  padding: 7px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.nav-social i:hover {
+  color: rgb(20, 191, 152);
+  background-color: #fff;
+}
+
+/* home */
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("/images/home.jpg");
+  min-height: 56rem;
+  width: 100%;
+  background-position: center 0%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home .container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 3.5rem;
+  line-height: 4rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.home .words:before {
+  content: "";
+  animation-name: spantext;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spantext {
+  0% {
+    content: "TEMPLATE";
+  }
+  50% {
+    content: "SERVICES";
+  }
+  100% {
+    content: "SOLUTIONS";
+  }
+}
+
+.home p {
+  width: 85%;
+  max-width: 37.5rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  color: rgb(223, 229, 227);
+  margin-top: 10px;
+}
+
+.home a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 8.45rem;
+  height: 3rem;
+  background-color: rgb(20, 191, 152);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(20, 191, 152);
+  border-radius: 0.25rem;
+  margin-top: 2rem;
+}
+
+.home a:hover {
+  color: rgb(20, 191, 152);
+  background-color: transparent;
+}
+
+.intro {
+  width: 100%;
+  padding: 6.25rem 7.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.intro .container {
+  width: 100%;
+  max-width: 72.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 7.5rem;
+}
+
+.intro .text {
+  width: 35%;
+  text-align: left;
+}
+
+.intro .text h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.125rem;
+  color: rgb(20, 191, 152);
+  margin-bottom: 0.625rem;
+}
+
+.intro .text h1 {
+  font-family: "Montserrat", sans-serif;
+  width: 90%;
+  max-width: 25rem;
+  font-size: 1.75rem;
+  line-height: 2.1rem;
+  font-weight: 700;
+  color: rgb(72, 74, 70);
+  margin-bottom: 1.125rem;
+}
+
+.intro .text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: rgb(120, 121, 118);
+  margin-bottom: 1.125rem;
+}
+
+.intro .text .para {
+  font-style: italic;
+}
+
+.intro .text h3 {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 700;
+  color: rgb(72, 74, 70);
+}
+
+.intro .image {
+  width: 55%;
+  overflow: hidden;
+  border-radius: 0.3125rem;
+  margin-left: 5rem;
+}
+
+.intro .image img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.3125rem;
+  float: right;
+  object-fit: fill;
+  transition: 0.3s ease;
+}
+
+.intro .image img:hover {
+  transform: scale(1.15);
+}
+
+.intro .cards {
+  width: 100%;
+  max-width: 72.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.intro .card {
+  width: 30%;
+  max-width: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  word-wrap: break-word;
+  gap: 0.625rem;
+}
+
+.intro .card .card-hex {
+  color: #fff;
+  background-color: rgb(20, 191, 152);
+  width: 6.25rem;
+  height: 5.625rem;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.intro .card h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.6rem;
+  font-weight: 700;
+  color: rgb(72, 74, 70);
+}
+
+.intro .card p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(120, 121, 118);
+}
