@@ -186,7 +186,7 @@ nav .nav-social {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin-bottom: 7.5rem;
 }
 
@@ -863,6 +863,7 @@ nav .nav-social {
 .call-me .container-col1 ul li {
   margin-bottom: 0.375rem;
   padding-left: 0;
+  color: rgb(223, 229, 227);
 }
 
 .call-me .container-col1 ul li::before {
@@ -1733,11 +1734,13 @@ footer .li-space-lg li {
 
 /* footer img */
 
-.img {
+.imglast {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 7.5rem;
+  padding-bottom: 2rem;
+  padding-left: 2.5rem;
 }
 
 /* arrow  */
