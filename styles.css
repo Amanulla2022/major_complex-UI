@@ -896,8 +896,8 @@ nav .nav-social {
   margin-bottom: 1.25rem;
 }
 
-.form-control-input,
-.form-control-select {
+.call-me .form-control-input,
+.call-me .form-control-select {
   font-family: "Open Sans", sans-serif;
   display: block;
   width: 100%;
@@ -926,7 +926,7 @@ nav .nav-social {
   height: 3rem;
 }
 
-.label-control {
+.call-me .label-control {
   font-family: "Open Sans", sans-serif;
   position: absolute;
   top: 0.8125rem;
@@ -1395,4 +1395,364 @@ input[type="checkbox"] {
   line-height: 1.25rem;
   vertical-align: middle;
   color: rgb(120, 121, 118);
+}
+
+/* contact */
+.contact {
+  padding-top: 6.875rem;
+  padding-bottom: 5.625rem;
+  background-color: rgb(251, 251, 251);
+}
+
+.contact .container {
+  width: 100%;
+  max-width: 71.25rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact .container .container-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.contact .container-col {
+  position: relative;
+  width: 50%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.contact .container-col .text {
+  margin-top: 0.875rem;
+  margin-right: 1.5rem;
+}
+
+.contact h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 1.375rem;
+  font-size: 1.75rem;
+  line-height: 2.125rem;
+  color: rgb(72, 74, 70);
+}
+
+.contact p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5625rem;
+  margin-bottom: 1rem;
+  color: rgb(120, 121, 118);
+}
+
+.contact .list-unstyled {
+  margin-bottom: 2.25rem;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+.contact .list-unstyled li {
+  margin-right: 1rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.contact .list-unstyled .address {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5625rem;
+  color: rgb(120, 121, 118);
+}
+
+.contact .list-unstyled .fa {
+  margin-right: 0.5rem;
+  font-size: 0.875rem;
+  color: #14bf98;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(120, 121, 118);
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5625rem;
+}
+
+.contact h3 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+  color: rgb(72, 74, 70);
+}
+
+.contact .stack {
+  margin-left: 0.125rem;
+  margin-right: 0.25rem;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+  width: 3.25rem;
+  height: 3.25rem;
+}
+
+.contact .stack-i {
+  align-items: center;
+  font-size: 1.5rem;
+  width: 3.25rem;
+  height: 3.25rem;
+  line-height: 3.25rem;
+  padding-left: 1rem;
+  color: #fff;
+  vertical-align: middle;
+  transition: all 0.2s ease;
+  background-color: rgb(20, 191, 152);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.contact .stack .hexagon {
+  position: absolute;
+  width: 3.25rem;
+  height: 3.25rem;
+  background-size: 3.25rem 3.25rem;
+  transition: all 0.2s ease;
+}
+
+.contact .stack:hover .stack-i {
+  background: transparent;
+  color: rgb(20, 191, 152);
+}
+
+/* contact form */
+.contact .form {
+  position: relative;
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+.contact form {
+  display: block;
+  margin-top: 0;
+  margin-left: 1.75rem;
+  margin-right: 3rem;
+}
+
+.contact .form-group {
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+
+.contact .form-control-input,
+.contact .form-control-select {
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  width: 100%;
+  padding-top: 1.25rem;
+  padding-left: 1.3125rem;
+  padding-bottom: 0.25rem;
+  border: 1px solid #bbbebf;
+  border-radius: 0.25rem;
+  color: #787976;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  /* background-color: #2a5d77; */
+  color: #fff;
+  outline: none;
+}
+
+.form-control-input:hover,
+.form-contro-select:hover,
+.form-control-textarea:hover {
+  border: 1px solid #dadada;
+}
+
+.form-control-select {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 3rem;
+}
+
+.contact .label-control {
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  top: 0.8125rem;
+  left: 1.375rem;
+  color: #787976;
+  opacity: 1;
+  font: 400;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  cursor: text;
+  transition: all 0.2s ease;
+}
+
+.contact input:focus ~ label,
+.contact textarea:focus ~ label,
+.contact input:valid ~ label {
+  top: -0.125rem;
+  font-size: 0.75rem;
+}
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+  width: 100%;
+  height: 8rem;
+  border: 1px solid #dadada;
+  border-radius: 0.25rem;
+}
+
+textarea:focus {
+  border: 1px solid #dadada;
+}
+
+.contact .checkbox {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(17, 52, 72);
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.565rem;
+}
+.contact .checkbox a {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(120, 121, 118);
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.565rem;
+}
+
+.contact button:hover {
+  color: rgb(20, 191, 152);
+}
+
+/* footer */
+footer {
+  padding-top: 1rem;
+  background-color: rgb(17, 52, 72);
+}
+
+footer .container {
+  width: 100%;
+  max-width: 72.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer .container-row {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: first baseline;
+}
+
+footer .container-col-1 {
+  position: relative;
+  width: 340%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+footer .text {
+  margin-bottom: 2.25rem;
+}
+
+footer .text.about {
+  margin-right: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 2.675rem;
+}
+
+footer h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  margin-bottom: 0.75rem;
+  color: #fff;
+}
+
+footer p,
+footer ul {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5625rem;
+}
+
+footer a.white,
+footer .white {
+  color: rgb(223, 229, 227);
+}
+
+footer p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+footer .container-col-2 {
+  position: relative;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.copyright,
+.copyright a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  margin: auto;
+  padding-bottom: 2rem;
+  color: rgb(223, 229, 227);
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  text-align: center;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer .li-space-lg li {
+  margin-bottom: 0.375rem;
+}
+
+/* footer img */
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7.5rem;
+}
+
+/* arrow  */
+a.back-to-top {
+  position: fixed;
+  z-index: 5;
+  right: 0.75rem;
+  bottom: 0.75rem;
+  width: 2.625rem;
+  height: 2.625rem;
+  border-radius: 1.875rem;
+  background: rgb(20, 191, 152) url(./images/up-arrow.png) no-repeat center 47%;
+  background-size: 1.125rem 1.125rem;
+}
+
+nav a.back-to-top {
+  display: none;
 }
