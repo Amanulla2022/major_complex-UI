@@ -89,7 +89,7 @@ nav .nav-social {
 /* home */
 .home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url(/images/home.jpg);
+    url(./images/about.jpg);
   min-height: 56rem;
   width: 100%;
   background-position: center 0%;
